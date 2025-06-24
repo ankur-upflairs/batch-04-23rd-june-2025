@@ -1,0 +1,19 @@
+hyper text markup language 
+1.tag => to tell the browser what to display and how to display
+<p> opening
+</p> closing tag  
+2. element => opening tag + content + closing tag
+3. attribute => for additional information about tag
+
+<p align="right" >this is paragraph</p>
+
+
+
+
+
+
+
+
+
+
+
