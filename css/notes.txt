@@ -1,0 +1,12 @@
+color:red;
+css rule : - 
+selector{
+    color:blue;
+    background-color:tan;
+}
+
+selector => element , id , class 
+
+
+
+
