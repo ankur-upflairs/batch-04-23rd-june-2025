@@ -4,3 +4,6 @@ list
 block - inline element
 image 
 anchor tag
+table
+
+
