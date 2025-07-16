@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4 Boxes</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;      
+    }
+    .box1:hover{
+        background-color: red;
+    }
+    p:first-child{
+        color: red;
+    }
+    /* li:last-child{color: blue;} */
+    li:nth-child(2n){
+        color: tan;
+    } 
+    span:first-of-type{
+        color: red;
+    }
+    input:focus{
+        background-color: green;
+    }
+    input:disabled{
+        background-color: black;
+    }
+    input:invalid{
+        background-color: red;
+    }
+    input:read-only{
+        background-color: magenta;
+    }
+    /* a:link{
+        color: yellow;
+    } */
+     /* a:hover{
+        font-size: 40px;
+     } */
+      /* a:active{
+        background-color: yellow;
+      } */
+       a:visited{
+        color: green;
+       }
+  </style>
+</head>
+<body>
+    <div class="box box1">
+        <p>hello</p>
+        <span>hi</span>
+        <p>everyone</p>
+    </div>
+   
+  <ul>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li>
+    <li>hello</li> 
+  </ul>
+  <input type="text">
+  <label for="" class="x">x</label>
+  <input type="checkbox" name="" id="">
+  <input type="email">
+  <a href="#" class="a">click here</a>
+</body>
+</html>
