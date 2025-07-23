@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        background-color: tan;
+      }
+      .box {
+        width: 270px;
+        display: flex;
+        position: absolute;
+        left: calc(50% - 270px / 2 );
+        top: calc(50% - 40px / 2 );
+
+      }
+      input[type="text"] {
+        width: 200px;
+        height: 40px;
+        padding: 0px;
+        padding-left: 10px;
+        border: none;
+      }
+      input[type="text"]::placeholder {
+        color: green;
+        font-size: 20px;
+      }
+      label {
+        display: block;
+        /* border: 2px solid; */
+        width: 70px;
+        height: 40px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+      }
+      .container {
+        width: 80%;
+        height: 200px;
+        border: 1px solid;
+        margin: 0px auto;background-color: lightblue;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <div class="container">
+        <div>hello</div>
+        <div class="box">
+          <input placeholder="search" type="text" />
+          <label for=""><i class="fa-solid fa-magnifying-glass"> </i></label>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
