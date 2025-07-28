@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2 Boxes</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+      }
+      .box1,
+      .box2 {
+        background-color: red;
+      }
+      .box3 h1 {
+        color: red;
+      }
+      .box3 > h1 {
+        background-color: tan;
+      }
+      h1 + a {
+        color: red;
+      }
+      h1 ~ a{
+        background-color: yellow;
+      }
+      .box1 {
+      }
+      .box2 {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box3">
+      <h1>heading</h1>
+      <p class="a">hello</p>
+      <span class="b">everyone</span>
+      <div>
+        <h1>heading</h1>
+      </div>
+      <a href="#">google</a>
+    </div>
+    <h1>heading</h1>
+    <a href="#">click here</a>
+  </body>
+</html>
