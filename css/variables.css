@@ -1,0 +1,14 @@
+:root{
+    --bg-color:tan;
+    --h1:32px;
+}
+
+.box{
+    --txt-color:blue;
+    /* background-color: var(--bg-color); */
+}
+
+
+
+
+
