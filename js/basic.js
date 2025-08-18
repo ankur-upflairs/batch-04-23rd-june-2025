@@ -36,11 +36,23 @@ let j = 343545455565656n
 //symbol => 
 let s1 = Symbol('a')
 let s2 = Symbol('a')
-console.log(s1 == s2)
+// console.log(s1 == s2)
+//object => {key - value pair}
+let person = {
+    name:'garwanshi',
+    age:55,
+    contact:{
+        email:'garwanshi@abc.com'
+    },
+    marks:[23,34,13,35]
+}
+console.log(person.name)
+console.log(person.contact.email)
+console.log(person.marks[2])
 
-
-
-
+//array => collection of elements
+let ages = [23,12,45,56] 
+console.log(ages[1])
 
 
 
