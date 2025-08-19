@@ -33,3 +33,10 @@ console.log(false || true)
 // falsly values => false , 0 , "" (blank string) , null , undefined 
 console.log(!true)
 console.log(!78)
+//increment or decrement 
+// ++ (increase value by one )
+let x =45
+// x++
+// console.log(x)
+// x--
+// console.log(x)
